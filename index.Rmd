@@ -91,9 +91,14 @@ Some notes on the first slide
 
 ## 爆发式的增长
 
-- 17141 contributor
-- 432 sponsor
-- 140+ countries
+- 17141 Individuals
+- 432 Supporting companies
+- 145 Organizations contributing code
+- 20 Million lines of code
+- Thousands of patches merged every release
+- Hundreds of millions of investment dollars
+
+***
 
 ![pop](most-popular.jpg)
 

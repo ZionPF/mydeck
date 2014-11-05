@@ -1,5 +1,5 @@
 ---
-title: 开源
+title: 开源平台OpenStack使用感受
 author: Pengfei Zhang
 mode : selfcontained
 framework: revealjs
@@ -17,7 +17,7 @@ bootstrap:
 
 ### 开源平台：OpenStack 使用感受
 
-<small> Created by [张鹏飞](http://pengfei-zhang.com) / [上海交通大学](http://omnilab.sjtu.edu.cn) </small>
+<small> Created by [张鹏飞](http://pengfei-zhang.com) @ [上海交通大学](http://omnilab.sjtu.edu.cn) </small>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
@@ -91,9 +91,14 @@ Some notes on the first slide
 
 ## 爆发式的增长
 
-- 17141 contributor
-- 432 sponsor
-- 140+ countries
+- 17141 Individuals
+- 432 Supporting companies
+- 145 Organizations contributing code
+- 20 Million lines of code
+- Thousands of patches merged every release
+- Hundreds of millions of investment dollars
+
+***
 
 ![pop](most-popular.jpg)
 
