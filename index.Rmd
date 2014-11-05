@@ -39,9 +39,9 @@ Some notes on the first slide
 
 ***
 
-## GNU & GPL
+# GNU & GPL
 
-### 关键词，不是免费，是自由
+## 关键词，不是免费，是自由
 
 - GNU : GNU's not Unix 
 - GPL : The GNU General Public License
@@ -51,7 +51,7 @@ Some notes on the first slide
 
 ***
 
-## OpenSource : Apache / BSD
+# OpenSource : Apache / BSD
 
 - 同样是开源，但是更温和
 - 更像是拿来主义
@@ -60,11 +60,20 @@ Some notes on the first slide
 
 --- &vertical
 
+## Cloud & Open Source
+
+
+![](private_cloud_fun.jpg)
+
+<small>说起云计算，不得不提到一个问题：_____哪家强？</small>
+
+***
+
 ## OpenStack ： 开源的新宠儿
 
 ![oslogo](openstack-logo.png)
 
-<small>说起云计算，不得不提到一个问题：_____哪家强？</small>
+
 
 ***
 
@@ -76,7 +85,7 @@ Some notes on the first slide
 
 ## OpenStack Today:
 
-![overview](openstack-arch.jpg)
+![openstack_projects](openstack-arch.jpg)
 
 ***
 
@@ -107,7 +116,7 @@ Some notes on the first slide
 
 ***
 
-## Open Source
+# Open Source
 
 > - 开源协议采用 Apache License 2.0
 > - 企业可以拿来做成自己的产品
@@ -115,7 +124,7 @@ Some notes on the first slide
 
 ***
 
-## Open Design
+# Open Design
 
 > - 非某公司拥有 （如Android)
 > - 非某公司主导 （如CloudStack）
@@ -128,7 +137,7 @@ Some notes on the first slide
 
 ***
 
-## Open Devolopment
+# Open Devolopment
 
 - Public route map
 - Public code review
@@ -136,7 +145,7 @@ Some notes on the first slide
 
 ***
 
-## Open Community
+# Open Community
 
 - Committee负责协调、选型和规模控制
 - 开发者友好：PTL-Core-Reviewer 的多级架构
@@ -146,15 +155,64 @@ Some notes on the first slide
 
 ## Let's build the LEGO together
 
-![cont_org](lego_stack.jpg)
+![](lego_stack.jpg)
 
 ---
 
 ## OpenStack in SJTU
 
+--- ds:soothe
+
+Remember <q>Free ≠ Open Source</q> ?
+
+# Open Source ≠ Free
+
+--- 
+
+## 平台概况
+
+- 服务平台，为学校提供云服务
+- 实验平台，尝试各种新技术
+![](sjtu1.png)
+
+--- 
+
+## 平台架构
+
+![](sjtu1.png)
+
 ---
 
+## Use Case
 
+- 科学计算
+- 开发/测试环境
+- 性能压力测试
+- Web服务
+- 教学辅助
+
+--- &vertical
+
+## R & D
+
+- Research: 从实际运营中抽象出研究问题
+- Development: 补丁、插件、新框架，回馈社区
+
+***
+
+## 网络带宽保证
+
+![](guarantee.png)
+
+***
+
+## SDN 多域虚拟化
+
+![](multi-domain.jpg)
+
+
+
+---
 
 ## Thank you!
 
