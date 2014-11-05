@@ -1,59 +1,160 @@
 ---
-title       :  开源平台OpenStack
-subtitle    : 
-author      :  张鹏飞
-job         : 
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
+title: 开源
+author: Pengfei Zhang
+mode : selfcontained
+framework: revealjs
+hitheme : zenburn
+revealjs:
+  theme: default
+  transition: default
+  center: "true"
+url: {lib: "."}
+bootstrap:
+  theme: amelia
 ---
 
-## Read-And-Delete
+## 众人拾柴，方成燎原之势
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+### 开源平台：OpenStack 使用感受
 
---- .class #id 
+<small> Created by [张鹏飞](http://pengfei-zhang.com) / [上海交通大学](http://omnilab.sjtu.edu.cn) </small>
 
-## Slide 2
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
---- #montreal bg:url(http://goo.gl/cF6W2)
+*** =pnotes
+Some notes on the first slide
 
-## Montreal by Night Time
+---
 
---- #dillinger
+## Outline
 
-<iframe src = 'http://dillinger.io' height='600px'></iframe>
+- 开源，从 Free 到 Open
+- OpenStack开源，为什么这么火
+- 上海交通大学OpenStack案例介绍
+- 思考：高校与开源
 
---- .middle 
+--- &vertical ds:alert
 
-## Try
+# FREE ≠ Open Source
 
----  plot #simple-plot
+***
 
-## A Simple Plot ##
+## GNU & GPL
 
-Let us create a simple scatterplot.
+### 关键词，不是免费，是自由
+
+- GNU : GNU's not Unix 
+- GPL : The GNU General Public License
+<br/>
+
+>Our mission is to preserve, protect and promote the freedom to use, study, copy, modify, and redistribute computer software, and to defend the rights of Free Software users. — Richard Stallman
+
+***
+
+## OpenSource : Apache / BSD
+
+- 同样是开源，但是更温和
+- 更像是拿来主义
+
+![opensource](opensource_icon.png)
+
+--- &vertical
+
+## OpenStack ： 开源的新宠儿
+
+![oslogo](openstack-logo.png)
+
+<small>说起云计算，不得不提到一个问题：_____哪家强？</small>
+
+***
+
+## NASA + rackspace
+
+![overview](openstack-structure-overview.png)
+
+***
+
+## OpenStack Today:
+
+![overview](openstack-arch.jpg)
+
+***
+
+## 爆发式的增长
+
+- 17141 contributor
+- 432 sponsor
+- 140+ countries
+
+![pop](most-popular.jpg)
+
+***
+
+![contrib](contributing_orgs.jpg)
+
+***
+
+![cont_org](git_contributor.jpg)
+
+***
+## 那么问题又来了。。。
+
+同样是开源，为什么OpenStack能够如此之快的成长？
+
+--- &vertical
+
+# How Open is OpenStack?
+
+***
+
+## Open Source
+
+> - 开源协议采用 Apache License 2.0
+> - 企业可以拿来做成自己的产品
+> - 参与者越来越多
+
+***
+
+## Open Design
+
+> - 非某公司拥有 （如Android)
+> - 非某公司主导 （如CloudStack）
+> - 基金会管理，共同参与决策
+> - _想要更过话语权？请砸更多工程师_
+
+<a href="#" class="image navigate-down">
+  <img width="343" height="285" src="./company-pie.png">
+</a>
+
+***
+
+## Open Devolopment
+
+- Public route map
+- Public code review
+- Free summit ticket
+
+***
+
+## Open Community
+
+- Committee负责协调、选型和规模控制
+- 开发者友好：PTL-Core-Reviewer 的多级架构
+- 公司友好：无论商业还是开源方案，都可以找到支持
+
+***
+
+## Let's build the LEGO together
+
+![cont_org](lego_stack.jpg)
+
+---
+
+## OpenStack in SJTU
+
+---
 
 
-```r
-require(ggplot2)
-```
 
-```
-## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
-## logical.return = TRUE, : there is no package called 'ggplot2'
-```
-
-```r
-qplot(wt, mpg, data = mtcars)
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "qplot"
-```
+## Thank you!
 
