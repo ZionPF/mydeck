@@ -1,5 +1,5 @@
 ---
-title: 开源
+title: 开源平台OpenStack使用感受
 author: Pengfei Zhang
 mode : selfcontained
 framework: revealjs
@@ -17,7 +17,7 @@ bootstrap:
 
 ### 开源平台：OpenStack 使用感受
 
-<small> Created by [张鹏飞](http://pengfei-zhang.com) / [上海交通大学](http://omnilab.sjtu.edu.cn) </small>
+<small> Created by [张鹏飞](http://pengfei-zhang.com) @ [上海交通大学](http://omnilab.sjtu.edu.cn) </small>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
