@@ -1,0 +1,46 @@
+image(volcano)
+volcano
+image(volcano)#
+volcano
+.package(True)
+.packages(True)
+.packages(TRUE)
+normalizePath('~')
+list.files('~', all.files = TRUE)
+file.edit('~/.Rprofile')
+file.edit('~/.Renviron')
+normalizePath('~')
+x = readline("Answer yes or no: ")#
+x
+ajsdi
+x = readline("Answer yes or no: ")
+x
+install.packages("devtools")
+library(devtools)
+install_github('slidify', 'ramnathv')
+library(slidify)
+author("mydeck")
+slidify(index.Rmd)
+slidify("./mydeck/index.Rmd")
+ls
+dir()
+slidify("index.Rmd")
+require(ggplot2)
+install.packages(ggplot)
+install.packages("ggplot2")
+qplot(wt, mpg, data = mtcars)
+gplot(wt, mpg, data = mtcars)
+require(ggplot2)
+qplot(wt, mpg, data = mtcars)
+slidify("index.Rmd")
+Sys.setlocale("LC_ALL", 'en_US.UTF-8')
+slidify("index.Rmd")
+install.packages("slidifyLibraries")
+install_github("slidifyLibraries")
+install_github('slidifyLibraries', 'ramnathv')
+slidify("index.Rmd")
+slidify("demo.Rmd")
+slidify("demo.Rmd")
+slidify("demo.Rmd")
+slidify("demo.Rmd")
+slidify("demo.Rmd")
