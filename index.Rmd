@@ -56,14 +56,14 @@ Some notes on the first slide
 - 同样是开源，但是更温和
 - 更像是拿来主义
 
-![opensource](opensource_icon.png)
+![opensource](./opensource_icon.png)
 
 --- &vertical
 
 ## Cloud & Open Source
 
 
-![](private_cloud_fun.jpg)
+![](./private_cloud_fun.jpg)
 
 <small>说起云计算，不得不提到一个问题：_____哪家强？</small>
 
@@ -71,7 +71,7 @@ Some notes on the first slide
 
 ## OpenStack ： 开源的新宠儿
 
-![oslogo](openstack-logo.png)
+![oslogo](./openstack-logo.png)
 
 
 
@@ -79,13 +79,13 @@ Some notes on the first slide
 
 ## NASA + rackspace
 
-![overview](openstack-structure-overview.png)
+![overview](./openstack-structure-overview.png)
 
 ***
 
 ## OpenStack Today:
 
-![openstack_projects](openstack-arch.jpg)
+![openstack_projects](./openstack-arch.jpg)
 
 ***
 
@@ -100,15 +100,15 @@ Some notes on the first slide
 
 ***
 
-![pop](most-popular.jpg)
+![pop](./most-popular.jpg)
 
 ***
 
-![contrib](contributing_orgs.jpg)
+![contrib](./contributing_orgs.jpg)
 
 ***
 
-![cont_org](git_contributor.jpg)
+![cont_org](./git_contributor.jpg)
 
 ***
 ## 那么问题又来了。。。
@@ -160,7 +160,7 @@ Some notes on the first slide
 
 ## Let's build the LEGO together
 
-![](lego_stack.jpg)
+![](./lego_stack.jpg)
 
 ---
 
@@ -178,13 +178,12 @@ Remember <q>Free ≠ Open Source</q> ?
 
 - 服务平台，为学校提供云服务
 - 实验平台，尝试各种新技术
-![](sjtu1.png)
 
 --- 
 
 ## 平台架构
 
-![](sjtu1.png)
+![](./sjtu1.png)
 
 ---
 
@@ -207,13 +206,13 @@ Remember <q>Free ≠ Open Source</q> ?
 
 ## 网络带宽保证
 
-![](guarantee.png)
+![](./guarantee.png)
 
 ***
 
 ## SDN 多域虚拟化
 
-![](multi-domain.jpg)
+![](./multi-domain.jpg)
 
 
 
