@@ -25,7 +25,13 @@ bootstrap:
 Some notes on the first slide
 
 ---
+## About Me
 
+- 上海交通大学土著博士
+- 自2011年接触OpenStack开源社区
+- 2013-2014年于Cisco硅谷总部参与OpenStack相关开发
+
+---
 ## Outline
 
 - 开源，从 Free 到 Open
@@ -71,11 +77,11 @@ Some notes on the first slide
 ## Cloud & Open Source
 
 
-![](./pic/private_cloud_fun.jpg)
+![](./pic/cloud_fun.jpg)
 
 <small>说起云计算，不得不提到一个问题：_____哪家强？</small>
 
-***
+*** 
 
 ## OpenStack ： 开源的新宠儿
 
@@ -83,13 +89,13 @@ Some notes on the first slide
 
 
 
-***
+*** 
 
 ## NASA + rackspace
 
 ![overview](./pic/openstack-structure-overview.png)
 
-***
+*** 
 
 ## OpenStack Today:
 
@@ -104,7 +110,7 @@ Some notes on the first slide
 - 编配 (Orchestration)：Heat
 
 
-***
+*** 
 
 ## 爆发式的增长
 
@@ -115,12 +121,12 @@ Some notes on the first slide
 - Thousands of patches merged every release
 - Hundreds of millions of investment dollars
 
-***
-
+*** 
+<small>http://www.qyjohn.net/?p=3373</small>
 ![contrib](./pic/contributing_orgs.jpg)
 
 ***
-
+<small>http://www.qyjohn.net/?p=3373</small>
 ![cont_org](./pic/git_contributor.jpg)
 
 ***
@@ -128,7 +134,7 @@ Some notes on the first slide
 
 同样是开源，为什么OpenStack能够如此之快的成长？
 
---- &vertical
+--- &vertical ds:submerge
 
 # How Open is OpenStack?
 
@@ -155,19 +161,20 @@ Some notes on the first slide
 
 ***
 
-# Open Devolopment
-
-- Public route map
-- Public code review
-- Free summit ticket
-
-***
-
 # Open Community
 
 - Committee负责协调、选型和规模控制
 - 开发者友好：PTL-Core-Reviewer 的多级架构
 - 公司友好：无论商业还是开源方案，都可以找到支持
+
+
+***
+
+# Open Devolopment
+
+- Public route map
+- Public code review
+- Free summit ticket
 
 ***
 
@@ -224,26 +231,34 @@ Remember <q>Free ≠ Open Source</q> ?
 </a>
 
 
---- &vertical
+--- &vertical ds:cobalt
 
 ## R & D
 
 - Research: 从实际运营中抽象出研究问题
 - Development: 补丁、插件、新框架，回馈社区
 
-***
+*** ds:cobalt
 
 ## 网络带宽保证
 
 ![](./pic/guarantee.png)
 
-***
+*** ds:cobalt
 
 ## SDN 多域虚拟化
 
 ![](./pic/multi-domain.jpg)
 
+*** ds:cobalt
+
+## Big Data in Cloud
+
+网络流量分析 
+
+![](./pic/hadoop.jpg)
 ---
+
 
 ## 感悟OPEN:
 
@@ -255,4 +270,8 @@ Remember <q>Free ≠ Open Source</q> ?
 ---
 
 ## Thank you!
+
+- 本Slides使用 R + Slidify 编写，感谢Ramnath Vaidyanathan大神的开源工具
+- Slides观看地址: http://pengfei-zhang.com/mydeck
+- Github源码地址: https://github.com/HolySparky/mydeck
 
