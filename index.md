@@ -149,7 +149,7 @@ Some notes on the first slide
 > - 基金会管理，共同参与决策
 > - _想要更过话语权？请砸更多工程师_
 
-<a href="#" class="image navigate-down">
+<a>
   <img width="343" height="285" src="./pic/company-pie.png">
 </a>
 
@@ -206,7 +206,7 @@ Remember <q>Free ≠ Open Source</q> ?
 - 6 10G Switch
 - SDN enabled environment
 
-<a href="#" class="image navigate-down">
+<a>
   <img width="480" height="360" src="./pic/cluster1.jpg">
 </a>
 
@@ -219,7 +219,7 @@ Remember <q>Free ≠ Open Source</q> ?
 - 开发/测试
 - 教学辅助
 
-<a href="#" class="image navigate-down">
+<a>
   <img width="480" height="360" src="./pic/cluster2.jpg">
 </a>
 
