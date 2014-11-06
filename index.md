@@ -27,9 +27,9 @@ Some notes on the first slide
 ---
 ## About Me
 
-- 上海交通大学土著博士
+- 上海交通大学土著, PhD 在读
 - 自2011年接触OpenStack开源社区
-- 2013-2014年于Cisco硅谷总部参与OpenStack相关开发
+- 2013-2014: Cisco硅谷总部参与OpenStack开发
 
 ---
 ## Outline
