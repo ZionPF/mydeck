@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paper Proposal</title>
+  <meta name="description" content="">
+  <meta name="author" content="Pengfei Zhang">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="./frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2>研究点讨论</h2>
+  <h3>Measurement Enhanced Cloud Network - Traffic Statistical Techiques</h3>
+
+<p><small> Created by <a href="http://pengfei-zhang.com">张鹏飞</a> @ <a href="http://omnilab.sjtu.edu.cn">上海交通大学</a> </small></p>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>Outline</h2>
+  <ul>
+<li>Prediction</li>
+<li>Traffic Classification</li>
+<li>Abnormal Detection</li>
+<li>思考</li>
+</ul>
+
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>Prediction</h2>
+    <p>概述： 流量预测的目的和重要性不言而喻，但最重要的矛盾时预测时长与准确度的矛盾</p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Scope:</h2>
+
+<h3>Internet/backbone vs Cloud/DC</h3>
+
+<p>主要区别：</p>
+
+<ul>
+<li>Cloud中的流量模式更明显区分为东西／南北</li>
+<li>Cloud运营者对用户组位置具有感知和控制能力</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Time Scale</h2>
+
+<h3>Short Term vs Long Term</h3>
+
+<ul>
+<li>短期预测较为成熟，侧重时间序列预测，主要关注准确度</li>
+<li>长期预测较为困难，天然难以达到精准，侧重pattern, statistic</li>
+</ul>
+
+<p><small> <a href="./papers/backbone%20long%20term.pdf">Long-Term Forecasting of Internet Backbone Traffic: Observations and Initial Models</a> </small></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>预测方法</h2>
+
+<ul>
+<li>AR,MA,ARMA,ARIMA</li>
+</ul>
+
+<p><small> <a href="http://link.springer.com/chapter/10.1007%2F11751595_26#page-1">A Prediction Method of Network Traffic Using Time Series Models</a> </small></p>
+
+<ul>
+<li>Neural Network</li>
+</ul>
+
+<p><small> <a href="./papers/NN%20prediction.pdf">New Models for Long-Term Internet Traffic Forecasting Using Artificial Neural Networks and Flow Based Information</a> </small></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>预测方面的思考</h2>
+
+<ul>
+<li>不拼准确度，算法</li>
+<li>找准预测的目的 (控制对象)</li>
+<li>针对云计算／SDN环境进行预测方式的改进 (Flow -- Matrix)</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>Classification</h2>
+  <p>目前的Traffic Classification多基于Flow特性进行App的分类识别,</p>
+
+<p><small> <a href="./papers/classification%20survey.pdf">A Survey of Techniques for Internet Traffic Classification using Machine Learning</a> </small></p>
+
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>Abnormal Detection</h2>
+    <ul>
+<li><p>异常检测与Classification是分不开的，可以说是分类的一种应用</p></li>
+<li><p>主要应用是入侵检测，最常见的是DDOS</p></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>常用方法</h2>
+
+<ul>
+<li>统计PDF</li>
+<li>Flow 特征</li>
+<li>Neural Network</li>
+</ul>
+
+<p><small> <a href="./papers/statistical%20anomaly%20approach.pdf">Network Intrusion and Fault Detection: A Statistical Anomaly Approach</a> </small></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>异常检测思考</h2>
+
+<ul>
+<li>目前主要是攻击检测</li>
+<li>可否做App Performance Abnormal Detection?</li>
+<li>延伸一步，是否可做App Classification?</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>关于Traffic Matrix</h2>
+    <ul>
+<li>传统流量分析(分类，检测，预测)都以流为单位</li>
+<li>矩阵能更好地反映集群的特性</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>矩阵处理</h2>
+
+<ul>
+<li>全网拓扑矩阵: 初始数据，规模大，但信息完整</li>
+</ul>
+
+<p><small> <a href="https://www.usenix.org/conference/hotcloud14/workshop-program/presentation/lacurts">Cicada</a> </small></p>
+
+<ul>
+<li>Per Tenant Matrix: 规模小，但仅能分析用户行为，应用特性</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>整体思考: 可以做的点</h2>
+  <ul>
+<li>Flow Monitoring -- Matrix Monitoring</li>
+<li>Time Series Prediction -- Statistical Prediction</li>
+<li>Flow Classification -- App Performance Analysis</li>
+<li>Flow Control -- Statistical based control (Near Time)</li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="./frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'fade', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
