@@ -37,11 +37,9 @@ bootstrap:
 
 ***
 
-## Scope: 
 
-### Internet/backbone vs Cloud/DC
+### Internet  vs   Cloud
 
-主要区别：
 
 - Cloud中的流量模式更明显区分为东西／南北
 - Cloud运营者对用户组位置具有感知和控制能力
