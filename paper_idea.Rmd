@@ -24,10 +24,51 @@ bootstrap:
 
 ## Outline
 
-- Prediction
+
 - Traffic Classification
 - Abnormal Detection
+- Prediction
 - 思考
+
+---
+
+## Classification
+
+目前的Traffic Classification多基于Flow特性进行App的分类识别,
+
+<small> [A Survey of Techniques for Internet Traffic Classification using Machine Learning](./papers/classification survey.pdf) </small>
+
+
+--- &vertical
+
+## Abnormal Detection
+
+- 异常检测与Classification是分不开的，可以说是分类的一种应用
+
+- 主要应用是入侵检测，最常见的是DDOS
+
+
+
+***
+
+## 常用方法
+
+- 统计PDF
+- Flow 特征
+- Neural Network
+
+<small> [Network Intrusion and Fault Detection: A Statistical Anomaly Approach](./papers/statistical anomaly approach.pdf) </small>
+
+***
+
+## 异常检测思考
+
+- 目前主要是攻击检测
+- 可否做App Performance Abnormal Detection?
+- 延伸一步，是否可做App Classification?
+
+
+
 
 --- &vertical
 
@@ -75,42 +116,6 @@ bootstrap:
 - 找准预测的目的 (控制对象)
 - 针对云计算／SDN环境进行预测方式的改进 (Flow -- Matrix)
 
----
-
-## Classification
-
-目前的Traffic Classification多基于Flow特性进行App的分类识别,
-
-<small> [A Survey of Techniques for Internet Traffic Classification using Machine Learning](./papers/classification survey.pdf) </small>
-
-
---- &vertical
-
-## Abnormal Detection
-
-- 异常检测与Classification是分不开的，可以说是分类的一种应用
-
-- 主要应用是入侵检测，最常见的是DDOS
-
-
-
-***
-
-## 常用方法
-
-- 统计PDF
-- Flow 特征
-- Neural Network
-
-<small> [Network Intrusion and Fault Detection: A Statistical Anomaly Approach](./papers/statistical anomaly approach.pdf) </small>
-
-***
-
-## 异常检测思考
-
-- 目前主要是攻击检测
-- 可否做App Performance Abnormal Detection?
-- 延伸一步，是否可做App Classification?
 
 
 --- &vertical
@@ -138,5 +143,7 @@ bootstrap:
 - Time Series Prediction -- Statistical Prediction
 - Flow Classification -- App Performance Analysis
 - Flow Control -- Statistical based control (Near Time)
+
+<small> [Survey for SDN](./papers/roadmap.pdf) </small>
 
 
